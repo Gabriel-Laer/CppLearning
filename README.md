@@ -1,0 +1,2 @@
+Este repositorio tem como função demonstrar todo o processo de aprendizado em programação em c++ e solução de problemas.
+É também servirá como registro e monitoramento da minha evolução como um desenvolvedor.
