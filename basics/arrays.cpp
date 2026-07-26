@@ -7,6 +7,5 @@ int main(){
     for(char c : hello){
         std::cout << c << std::endl;
     }
-    std::cout << "ola";
     return 0;
 }
