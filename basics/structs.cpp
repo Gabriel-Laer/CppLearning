@@ -15,6 +15,6 @@ int main(){
     a.y = 12;
     a.z = 12.25;
 
-    std::cout << a.c << a.x << a.y << a.z << std::endl;
+    std::cout << a.c <<' '<< a.x << ' ' << a.y << ' ' << a.z << std::endl;
     return 0;
 }
