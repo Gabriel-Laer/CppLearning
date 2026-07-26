@@ -8,5 +8,6 @@ int main(){
 
     std::cout << "Usando Reference variable " << numberCopy << std::endl;
     std::cout << "Endereço de memoria de numberOrign: " << pointer << std::endl;
+    std::cout << "Dereferenciando numberOrign: " << *pointer << std::endl;
     return 0;
 }
