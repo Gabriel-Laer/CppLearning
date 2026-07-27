@@ -10,5 +10,5 @@ int main(){
 }
 
 void fullName(std::string fname){
-    std::cout << fname + ' ' + "Will";
+    std::cout << fname + ' ' + "Will" << std::endl;
 }
