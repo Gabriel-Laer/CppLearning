@@ -21,8 +21,18 @@ int main(){
 }
 
 void bubbleSort(int* a, int size){
+    int tmp = 0;
     for (size_t i = 0; i < size - 1; i++){
-        std::cout << "I: " << i << ' ';
+        for (size_t j = 0; j < size - i - 1; j++){
+            if(a[j] > a[j + 1]){
+                tmp = a[j + 1];
+                a[j + 1] = a[j];
+                a[j] = tmp;
+            }
+        } 
     }
-    
+    for (size_t i = 0; i < size; i++){
+        std::cout << a[i] << std::endl;
+    }
+    return;
 }
