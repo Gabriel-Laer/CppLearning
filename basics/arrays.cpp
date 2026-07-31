@@ -6,6 +6,7 @@ int main(){
 
     for(char c : hello){
         std::cout << c << std::endl;
+        std::cout << c << std::endl;
     }
     return 0;
 }
