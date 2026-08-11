@@ -1,12 +1,14 @@
 #include <iostream>
+#include <string>
 #include <vector>
 
 int linearSearch(std::vector<int>& a, int x);
 
 int main(){
     std::vector<int> array= {3,2,1,5,8};
-    int x = 0;
-    std::cout << linearSearch(array, x);
+    int x = 8;
+    std::string result = ((linearSearch(array, x) == -1) ? "No found." : "Value found.");
+    std::cout << result << std::endl;
     return 0;
 }
 
