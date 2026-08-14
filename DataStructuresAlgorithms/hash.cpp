@@ -107,6 +107,5 @@ void HashTable::printTable(){
             std::cout << "[INFO] Key: " << bItr->first << " Value: " << bItr->second << std::endl;
         }
     }
-
     return;
 }
